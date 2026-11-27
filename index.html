@@ -54,7 +54,7 @@ nav {
   overflow-wrap: anywhere;
 }
 #paper:not(.layout2):not(.layout3) > article h2 {
-  font-size: clamp(23px, 3.5vw, 30px);
+  font-size: clamp(25px, 3.75vw, 33px);
   -webkit-line-clamp: 4;
   margin: 5px 0 6px;
 }
@@ -77,7 +77,12 @@ nav {
   flex-direction: column;
 }
 #paper:not(.layout2):not(.layout3) > article:first-child h2 {
-  font-size: clamp(31px, 8vw, 48px);
+  background: var(--ink);
+  color: #fff;
+  border-block: 8px solid var(--ink);
+  padding-inline: clamp(10px, 1.2vw, 18px);
+  font-size: clamp(34px, 8.7vw, 52px);
+  line-height: 1.02;
   -webkit-line-clamp: 6;
 }
 #paper:not(.layout2):not(.layout3) > article:first-child p {
@@ -112,7 +117,7 @@ nav {
     padding: 12px 16px 12px 8px;
   }
   #paper:not(.layout2):not(.layout3) > article:first-child h2 {
-    font-size: clamp(46px, 4.8vw, 68px);
+    font-size: clamp(49px, 5.1vw, 73px);
     -webkit-line-clamp: 5;
   }
   #paper:not(.layout2):not(.layout3) > article:first-child img {
@@ -131,7 +136,7 @@ nav {
   }
   #paper:not(.layout2):not(.layout3) > article:nth-child(2) h2,
   #paper:not(.layout2):not(.layout3) > article:nth-child(3) h2 {
-    font-size: clamp(23px, 2.45vw, 36px);
+    font-size: clamp(25px, 2.65vw, 39px);
   }
   #paper:not(.layout2):not(.layout3) > article:nth-child(2) img,
   #paper:not(.layout2):not(.layout3) > article:nth-child(3) img {
@@ -141,7 +146,7 @@ nav {
     grid-column: span 4;
   }
   #paper:not(.layout2):not(.layout3) > article:nth-child(n+7) h2 {
-    font-size: clamp(21px, 1.85vw, 27px);
+    font-size: clamp(23px, 2vw, 29px);
   }
   #paper:not(.layout2):not(.layout3) > article:nth-child(6),
   #paper:not(.layout2):not(.layout3) > article:nth-child(10) {
